@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3745170663804616787, guid: 99fcad060ff8db0488b9e37e18f97662, type: 3}
       propertyPath: m_Name
-      value: Tile3
+      value: Tile3 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99fcad060ff8db0488b9e37e18f97662, type: 3}
@@ -116,6 +116,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ab4f899aec057924d861ac579972c414, type: 3}
       propertyPath: m_Name
       value: TrafficCone
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab4f899aec057924d861ac579972c414, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab4f899aec057924d861ac579972c414, type: 3}

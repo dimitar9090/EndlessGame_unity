@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     public float jumpForce;
     public float Gravity = -20;
+
+    public Animator animator;
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -23,6 +25,8 @@ public class PlayerController : MonoBehaviour
     {
         if (!PlayerManger.isGameStarted)
             return;
+
+        animator.SetBool("isGameStarted", true);
         direction.z = forwardSpeed;
 
         if (controller.isGrounded)
